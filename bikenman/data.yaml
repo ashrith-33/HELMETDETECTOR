@@ -1,0 +1,14 @@
+train: C:/Users/ashri/Desktop/desktop/helmetdetector/bikenman/train/images
+val: C:/Users/ashri/Desktop/desktop/helmetdetector/bikenman/valid/images
+test: C:/Users/ashri/Desktop/desktop/helmetdetector/bikenman/test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+
+roboflow:
+  workspace: aiproject-jatqb
+  project: bikershelmet
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiproject-jatqb/bikershelmet/dataset/2
